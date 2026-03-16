@@ -116,6 +116,10 @@ section#main button {
   padding: 14px 20px;
 }
 
+section#main button:hover {
+  background-color: #f55d1e;
+}
+
 section#main button p {
   color: #fff;
   font-size: 16px;
@@ -174,3 +178,7 @@ section#main button p {
 }
 
 /* -------------------- /INFO SECTION -------------------- */
+
+.info-section#first {
+  background-color: #f9f9f9;
+}
