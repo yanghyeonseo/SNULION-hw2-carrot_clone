@@ -5,6 +5,13 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .header-inline {
   height: 40px;
   width: 1160px;
@@ -13,7 +20,6 @@ body {
   align-items: center;
   padding: 12px 20px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 header nav {
@@ -24,24 +30,21 @@ header nav {
   margin-right: auto;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-ul {
+header ul {
   display: flex;
 }
 
-li {
+header li {
   list-style: none;
   color: #4d5159;
   padding: 0 15px;
 }
 
-input {
+header li:hover {
+  color: #6a6f77;
+}
+
+header input {
   background-color: #f2f3f6;
   width: 244px;
   font-size: 16px;
@@ -50,12 +53,7 @@ input {
   border-radius: 6px;
 }
 
-section#main {
-  height: 1000px;
-  background-color: #fffae0;
-}
-
-button {
+header button {
   background-color: #ffffff;
   font-size: 16px;
   font-weight: 700;
@@ -63,4 +61,14 @@ button {
   border-radius: 4px;
   padding: 8px 16px;
   margin: 0 0 0 12px;
+}
+
+header button:hover {
+  background-color: #f2f3f6;
+  color: #6a6f77;
+}
+
+section#main {
+  height: 1000px;
+  background-color: #fffae0;
 }
