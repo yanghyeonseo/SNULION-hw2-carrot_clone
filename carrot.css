@@ -5,8 +5,10 @@ body {
   justify-content: center;
 }
 
+/* -------------------- UTILS -------------------- */
+
 .container,
-.banner,
+.info-container,
 .button-container {
   display: flex;
   align-items: center;
@@ -16,18 +18,15 @@ body {
   justify-content: center;
 }
 
-.banner {
-  justify-content: space-between;
-  height: 100%;
-  width: 1024px;
-  margin: auto;
-}
-
 .button-container {
   justify-content: left;
   gap: 10px;
   padding: 10px 0;
 }
+
+/* -------------------- /UTILS -------------------- */
+
+/* -------------------- HEADER -------------------- */
 
 .header-inline {
   height: 40px;
@@ -85,9 +84,14 @@ header button:hover {
   color: #6a6f77;
 }
 
+/* -------------------- /HEADER -------------------- */
+
+/* -------------------- MAIN SECTION -------------------- */
+
 section#main {
   height: 760px;
   background-color: #fffae0;
+  padding-top: 24px;
 }
 
 section#main h1 {
@@ -101,10 +105,6 @@ section#main p {
   font-weight: 400;
   color: #7c7c7c;
   line-height: 30px;
-}
-
-section#main.container {
-  justify-content: left;
 }
 
 section#main button {
@@ -126,3 +126,51 @@ section#main button p {
 #main-img {
   margin-right: -84px;
 }
+
+/* -------------------- /MAIN SECTION -------------------- */
+
+/* -------------------- INFO SECTION -------------------- */
+
+.info-section {
+  height: 750px;
+}
+
+.info-container {
+  justify-content: space-between;
+  height: 100%;
+  width: 1024px;
+  margin: auto;
+}
+
+.info-title {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.info-head {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.info-detail {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.info-button {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+}
+.info-button:hover {
+  background-color: #dcdcdc;
+}
+
+/* -------------------- /INFO SECTION -------------------- */
