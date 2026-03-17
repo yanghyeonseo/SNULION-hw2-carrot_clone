@@ -12,8 +12,8 @@ Due Date: '26.03.19. (Thu)
 
 ## 역할 분담
 
-- **강민서**:
-- **양현서**:
-- **이주연**:
+- **강민서**: body section 2개
+- **양현서**: header + body section 2개
+- **이주연**: body section 1개 + footer
 
 ## 페이지 스크린샷
