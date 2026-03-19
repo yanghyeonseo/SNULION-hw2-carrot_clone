@@ -24,6 +24,12 @@ body {
   padding: 10px 0;
 }
 
+.button-details {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+}
+
 /* -------------------- /UTILS -------------------- */
 
 /* -------------------- HEADER -------------------- */
@@ -165,6 +171,12 @@ section#main button p {
   line-height: 30px;
 }
 
+.info-button-detail {
+  color: #7c7c7c;
+  font-size: 10px;
+  line-height: 15px;
+}
+
 .info-button {
   font-size: 18px;
   font-weight: 700;
@@ -180,6 +192,14 @@ section#main button p {
 /* -------------------- /INFO SECTION -------------------- */
 
 .info-section#first {
+  background-color: #f9f9f9;
+}
+
+.info-section#second {
+  background-color: #fff6eb;
+}
+
+.info-section#third {
   background-color: #f9f9f9;
 }
 
